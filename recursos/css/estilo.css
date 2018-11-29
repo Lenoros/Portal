@@ -1,0 +1,81 @@
+body {
+	margin:0px;
+	font-family:Arial,sans-serif;
+	font-size:12px;	
+}
+.topo {
+	height:30px;
+	background-color:#333;
+	color:#FFF;
+}
+.topo_int {
+	width:100%;
+	max-width:1040px;
+	margin:auto;
+}
+.topo_nav {
+	float:left;
+	width:50%;
+	height:30px;
+}
+.topo_social {
+	float:right;
+	width:50%;
+	height:28px;
+	margin-top:2px;
+}
+.topo_nav ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.topo_nav li {
+	float:left;
+	height:30px;
+	line-height:30px;
+	margin-left:8px;
+	margin-right:8px;
+}
+.top_nav li a {
+	text-decoration:none;	
+}
+.topo_nav li a:active {
+	color:blue;
+}
+.caixa_busca {
+	width:110px;
+	height:26px;
+	outline:0px;	
+}
+.topo_social a {
+	float:right;
+}
+.topo_social input {
+	float:right;
+}
+.topo_social img {
+	margin-right:4px;
+}
+.publicidade {
+	height:95px;
+	color:#000
+}
+.publicidade_int {
+	width:100%
+	max-width:1040px;
+	margin:auto;
+	height:95px;	
+}
+.logo {
+	width:230px;
+	height:90px;
+	float:left;
+	margin-top:5px;
+}
+.publicidade .banner {
+	width:650px;
+	height:80px;
+	float:right;
+	margin-top:7px;
+	background-color:red;
+}
