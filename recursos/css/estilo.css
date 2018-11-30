@@ -1,5 +1,5 @@
 body {
-	margin:0px;
+	margin:0;
 	font-family:Arial,sans-serif;
 	font-size:12px;	
 }
@@ -25,8 +25,8 @@ body {
 	margin-top:2px;
 }
 .topo_nav ul {
-	margin:0px;
-	padding:0px;
+	margin:0;
+	padding:0;
 	list-style:none;
 }
 .topo_nav li {
@@ -36,16 +36,14 @@ body {
 	margin-left:8px;
 	margin-right:8px;
 }
-.top_nav li a {
-	text-decoration:none;	
-}
-.topo_nav li a:active {
-	color:blue;
+.topo_nav li a {
+	text-decoration: none;
+	color:white;
 }
 .caixa_busca {
 	width:110px;
-	height:26px;
-	outline:0px;	
+	height:20px;
+	outline:0;
 }
 .topo_social a {
 	float:right;
@@ -56,12 +54,12 @@ body {
 .topo_social img {
 	margin-right:4px;
 }
-.publicidade {
+.logotipo {
 	height:95px;
-	color:#000
+	color:#000;
 }
-.publicidade_int {
-	width:100%
+.logotipo_int {
+	width:100%;
 	max-width:1040px;
 	margin:auto;
 	height:95px;	
@@ -72,10 +70,63 @@ body {
 	float:left;
 	margin-top:5px;
 }
-.publicidade .banner {
+.logo img{
+	height: 90px;
+	width: 230px;
+}
+.logotipo .banner {
 	width:650px;
 	height:80px;
 	float:right;
 	margin-top:7px;
 	background-color:red;
+}
+.menu_nav {
+	height: 40px;
+	background-color: red;
+}
+.menu_int {
+	width: 100%;
+	max-width: 1040px;
+	margin: auto;
+}
+.menu_int ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.menu_int li {
+	float:left;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.menu_int a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.sub_nav {
+	width: 150px;
+	position: absolute;
+	display: none;
+	background-color: red;
+}
+.menu_int li:hover .sub_nav {
+	display:block;
+}
+.sub_nav_item {
+	height: 30px;
+	line-height: 30px;
+	width: 150px;
+	text-align: center;
+	border-top: 1px;
+	border-color: #FFFFFF;
+	border-top-style: solid;
+}
+.sub_nav_item:hover {
+	background-color: indianred;
+}
+.menu_int li:hover {
+	background-color: indianred;
 }
